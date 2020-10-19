@@ -1,0 +1,53 @@
+<svg>
+  <use href="#app-gradient-background" class="app-gradient-background application-fill" apply-style="at-use">
+    
+    <svg>
+      <image x="0" y="0" width="100%" height="100%" href="globegrid.png" />
+   
+
+    <!-- <rect width="100%" height="60" x="0" y="0" />  -->
+    <!-- Left top Panel Start-->
+    <text y="40" />
+    <text id="locLo-data" class="sensor-data">{ ... }</text>
+    
+    <section x="50%-120" y="$+2" width="100%" height="20">
+        <image height="20" width="20" href="mountain-red-ds.png" />
+        <text id="alt-data" class="sensor-data-left">{ ... }</text> 
+    </section>
+      
+    <text y="50%+20" /> 
+    <section x="50%-120" y="$+2" width="100%" height="20">
+        <image height="20" width="20" href="heart-red-ds.png" />
+        <text id="hrm-data" class="sensor-data-left">{ ... }</text>
+    </section>
+      
+     <!-- Analog Clock Start -->
+
+    <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-6" y="-75" width="14" height="92" class="hour-hand-shadow" />
+      <rect x="$-6" y="-75" width="12" height="90" class="hour-hand" />
+    </g>
+    <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-4" y="-110" width="10" height="128" class ="min-hand-shadow"   />
+      <rect x="$-4" y="-110" width="8" height="126" class ="min-hand"   />
+     
+    </g>
+   <!-- <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-2" y="-120" width="4" height="140" class="second-hand" />
+    </g> -->
+    <!-- <circle cx="50%" cy="50%" r="5" fill="#444444" /> -->
+    <!-- Analog Clock End -->
+
+   <!-- 
+      <text id="bps-label" class="sensor-label">body-presence</text>
+      <text id="bps-data" class="sensor-data">{ ... }</text>
+      <text id="gyro-label" class="sensor-label">gyroscope</text>
+      <text id="gyro-data" class="sensor-data">{ ... }</text>
+      <text id="hrm-label" class="sensor-label">heart rate</text>
+     
+      <text id="orientation-label" class="sensor-label">orientation</text>
+      <text id="orientation-data" class="sensor-data">{ ... }</text>
+   Left top Panel End-->
+  </svg>
+ </use>
+</svg>
